@@ -1,0 +1,159 @@
+.jumbotron {
+  background-image: url("../img/jumbo-bg3.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.herotext {
+  margin-top: 8rem;
+}
+
+
+#movies{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.card-text {
+  line-height: 1.7;
+}
+
+/* GENERAL */
+
+a,
+a:active
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: #831721;
+}
+
+.page-link {
+  color: red;
+}
+
+.page-link:hover {
+  color: #831721;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: red;
+}
+
+/* NAV SOCIAL LINKS*/
+
+.social-links {
+  list-style: none;
+  float: right;
+  width: 200px;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.fas{
+  transition: color 0.2s;
+}
+
+.social-links .fa-city:hover {
+  color:rgb(76,117,163);
+}
+
+.social-links .fa-landmark:hover {
+  color:rgb(26,183,234);
+}
+
+.social-links .fa-twitter:hover {
+  color:rgb(85,172,238);
+}
+
+.social-links .fa-facebook-f:hover {
+  color:rgb(59,89,153);
+}
+
+.social-links .fa-instagram:hover {
+  color:rgb(228,64,95);
+}
+
+/* FOOTER*/
+
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+/* COUNTDOWN*/
+.countdown {
+  font-family: 'Roboto', sans-serif;
+  top: 690px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 510px;
+  height: 100px;;
+  margin: auto;
+}
+
+.countdown .flipdown {
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 900px;
+}
+
+.countdown h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 1024px) {
+  .countdown {
+    display: none;
+  }
+  #about {
+    display: none;
+  }
+  
+  .herotext {
+    margin-top: 4rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+}
